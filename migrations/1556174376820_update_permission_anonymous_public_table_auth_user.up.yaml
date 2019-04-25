@@ -1,0 +1,20 @@
+- args:
+    permission:
+      columns:
+      - date_joined
+      - email
+      - first_name
+      - id
+      - is_active
+      - is_staff
+      - is_superuser
+      - last_login
+      - last_name
+      - username
+      filter: {}
+      limit: null
+    role: anonymous
+    table:
+      name: auth_user
+      schema: public
+  type: create_select_permission

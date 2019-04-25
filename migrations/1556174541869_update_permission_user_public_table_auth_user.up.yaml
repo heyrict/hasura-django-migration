@@ -1,0 +1,15 @@
+- args:
+    permission:
+      columns:
+      - email
+      - first_name
+      - id
+      - last_name
+      filter:
+        id:
+          _eq: X-HASURA-USER-ID
+    role: user
+    table:
+      name: auth_user
+      schema: public
+  type: create_update_permission

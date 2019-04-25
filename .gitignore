@@ -1,0 +1,25 @@
+# Don't check auto-generated stuff into git
+coverage
+pushbundle
+node_modules
+build
+stats.json
+schema.json
+*.log
+# Nextjs build output
+dist
+.next
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+# Vim swap files
+*.swp
+
+# Keypair
+*.pem
+
+# Python
+__pycache__
