@@ -1,8 +1,6 @@
 Hasura Django Migration
 ==============
-This is the example repository describing how to migrating a django project to hasura backend.
-
-This repository will fully replace the django backend with an equivalent node.js express auth server, which is a fork of the auth-server example in [hasura/graphql-engine](https://github.com/hasura/graphql-engine) repository.
+This is an example of migrating django API (possibly REST or graphene) to hasura, with authentication part in the express JWT auth-server, and the rest handled by [hasura graphql engine](https://github.com/hasura/graphql-engine).
 
 File Structure and Migration Guide
 --------------
@@ -34,7 +32,7 @@ Here are the configurations used in this example.
     └── wsgi.py
 ```
 
-This is the simplest project created by `django-admin startproject`.
+This is the simplest project created by `django-admin startproject hasura`.
 
 We will use the default generated `auth_user` table for authentication, `auth_groups` and `auth_user_groups` for user role decision.
 
