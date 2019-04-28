@@ -45,7 +45,6 @@ Use `./manage.py migrate` to generate the tables.
 ├── package.json
 ├── server
 │   ├── config
-│   │   ├── intl.js
 │   │   └── jwt.js
 │   ├── controllers
 │   │   └── user.js
@@ -97,14 +96,20 @@ The metadata stores the default permissions for `user` and `anonymous`. You can 
 
 Requisitories
 -----------
-- Postgresql (you can opt to use mysql server using mysql.cnf)
+- Postgresql
 
     ```bash
     # Debian-based systems
     apt-get install postgresql
     ```
 
-- nodejs manager (latest `npm` or `yarn`). Note that the project is developed with `yarn`.
+- Python 3.5 + and depending packages
+
+    ```bash
+    pip install -r ./requirements.txt
+    ```
+
+- nodejs manager (latest `npm` or `yarn`).
 
     ```bash
     # Use npm
