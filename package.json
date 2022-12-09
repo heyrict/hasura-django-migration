@@ -14,7 +14,7 @@
     "keygen": "ssh-keygen -t rsa -f ./private.pem;ssh-keygen -f ./private.pem.pub -e -m pem > ./public.pem ; rm ./private.pem.pub"
   },
   "dependencies": {
-    "express": "4.16.4",
+    "express": "4.17.3",
     "fnv-plus": "^1.2.12",
     "jsonwebtoken": "^8.5.1",
     "pg": "^7.9.0",
