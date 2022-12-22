@@ -16,7 +16,7 @@
   "dependencies": {
     "express": "4.16.4",
     "fnv-plus": "^1.2.12",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "pg": "^7.9.0",
     "rasha": "^1.2.5",
     "sequelize": "^5.15.1"
